@@ -43,7 +43,7 @@ shortuuid==1.0.8
 six==1.16.0
 sniffio==1.2.0
 starlette==0.17.1
-tensorflow==2.9.0rc1
+tensorflow==2.8.0rc0
 textblob==0.17.1
 tokenizers==0.12.1
 tqdm==4.64.0
