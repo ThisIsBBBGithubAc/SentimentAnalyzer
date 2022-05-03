@@ -37,4 +37,4 @@ async def customText():
     data = sentiment_pipeline(data)
     print(type(data))
     print(data)
-    return {"message" : "data"}
+    return {"message" : data}
