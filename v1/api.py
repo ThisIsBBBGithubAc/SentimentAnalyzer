@@ -31,7 +31,10 @@ async def read_root(sp : ScrapingParameters):
     return {"Positive" : positive, "Negative" : negative, "Nuetral" : nuetral, "Sentiment" : sentiment}
 
 @router.get("/analyse/CustomText")
-async def read_root(sp : ScrapingParameters):
+async def customText():
     sentiment_pipeline = pipeline("sentiment-analysis")
     data = ["I love you", "I hate you"]
-    sentiment_pipeline(data)
+    data = sentiment_pipeline(data)
+    print(type(data))
+    print(data)
+    return {"message" : "data"}
