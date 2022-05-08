@@ -101,5 +101,5 @@ def scrape_youtube_comments_with_replies(video_url, file_name, maxComments, maxC
         print("Error msg : ", emsg)
 
 
-# scrape_youtube_comments_with_replies(video_url="7S_tz1z_5bA", file_name="abc", maxComments=20, maxCommentReplies=20, nextPage_retrive_limit=5)
+# scrape_youtube_comments_with_replies(video_url="7S_tz1z_5bA", file_name="abc", maxComments=10, maxCommentReplies=1, nextPage_retrive_limit=1)
 

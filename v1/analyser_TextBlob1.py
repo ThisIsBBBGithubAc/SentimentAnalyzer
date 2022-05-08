@@ -65,11 +65,11 @@ def analyse_comments(file_name):
         print('Negative: ' + negative_percentage)
 
 
-        nucomments = data[data.Analysis == 'Neutral']
-        nucomments = nucomments['Comment']
-        nuetral = round((nucomments.shape[0]/data.shape[0])*100, 1)
-        nuetral_percentage = str(nuetral)+ '%'
-        print('Nuetral: ' + nuetral_percentage)
+        neucomments = data[data.Analysis == 'Neutral']
+        neucomments = neucomments['Comment']
+        neutral = round((neucomments.shape[0]/data.shape[0])*100, 1)
+        neutral_percentage = str(neutral)+ '%'
+        print('neutral: ' + neutral_percentage)
 
 
 
@@ -82,16 +82,16 @@ def analyse_comments(file_name):
         # plt.show()
         # plt.savefig('my_plot.png')
 
-        sentiment = None
-        if positive > nuetral:
-            sentiment = positive
-        else:
-            sentiment = nuetral
-        if sentiment < negative:
-            sentiment = negative
+        # sentiment = None
+        # if positive > neutral:
+        #     sentiment = positive
+        # else:
+        #     sentiment = neutral
+        # if sentiment < negative:
+        #     sentiment = negative
 
 
-        return (positive_percentage, negative_percentage, nuetral_percentage, sentiment)
+        return (positive_percentage, negative_percentage, neutral_percentage)
     
     except Exception as emsg:
         current_file_name = os.path.basename(__file__)

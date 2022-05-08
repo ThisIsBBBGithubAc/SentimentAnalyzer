@@ -1,33 +1,20 @@
 Name,Comment,Time,Likes,Reply Count
 Programming with Mosh,"🔥 Want to master MySQL? Get the full MySQL course: http://bit.ly/2uAoPM3
-👍 Subscribe for more SQL tutorials like this: https://goo.gl/6PYaGF",2022-03-07T23:14:50Z,32,10
-ahmad gabr,I can't find the Zip file to download,2022-04-29T21:15:36Z,0,
-Angy DaoDao,"Thank you for this course~ 
-
-I do have a problem dealing with the first exercise. I’ll be extremely appreciate if you have some time to answer my question.
-
-I was using the same way as you did in the video, however, it keeps telling me that there is an error which the Table sys.products doesn’t exist. I tried my best but still didn’t work out. 
-
-If I specifically choose the Schema sql_inventory or sql_store, it works. But I am not pretty sure if that’s all the products in the database, cuz I couldn’t choose both of them.
-
-Hope to receive from you soon~
-Many thanks.",2022-04-17T00:24:17Z,0,
-HANNAH WRIGHT,"Hey Mosh, Where is the zip file?",2022-04-14T17:23:56Z,0,
-Rhiqua Mae Sandford,"Hi Mosh, where can i download the cheat sheet? the link is not available anymore",2022-03-31T22:30:27Z,2,
-YG Gonzaga,the cheat sheet link is not working anymore :(,2022-03-23T23:23:49Z,7,
-Connie Griffiths,@Fantematics click the show more button on the description above,2022-03-22T07:33:53Z,0,
-Fantematics,where do I see the zip file ?,2022-03-21T22:55:29Z,2,
-Antonio Gomez,@Peter Kim lp,2022-03-15T04:05:18Z,1,
-Peter Kim,Z,2022-03-12T02:33:46Z,2,
+👍 Subscribe for more SQL tutorials like this: https://goo.gl/6PYaGF",2022-03-07T23:14:50Z,33,13
+blessy pratap,eeb,2022-05-03T07:44:36Z,0,
+may contain nuts,"If your schemas are stuck on ""Fetching"", exit and re-start the MySQL workbench application! Should work then!",2022-05-03T03:51:55Z,0,0
+Logamou Seknewna Lema,You are a Chef! In 3 hours exactly I learned too many things.,2022-05-02T21:59:17Z,0,0
+TP Cabalit,"Thank you Mosh, I really appreciate this resource. Easy understand, concise and I can see that a lot of care has been put into the layout of the lessons. God Bless you more Sir.",2022-05-02T11:25:42Z,0,0
+Guna sheelan,unknown file encoding problem character set encoding name,2022-05-02T05:41:03Z,0,0
+Uquwa Gebrehiwot,How can add if failed some of the list,2022-05-01T19:38:01Z,0,0
 Corrupted Cardinal,"3:06:31 For this exercise, shouldn't we also check if the comment is NULL. If there was a comment there previously, then wouldn't it get overwritten to 'Gold customer'?",2022-04-30T00:17:18Z,0,0
-Rocky P,What a great time to be alive where you can learn coding from great teachers on YouTube,2022-04-29T11:01:13Z,0,0
-Rocky P,"Brilliant presentation, great music too and easy to follow",2022-04-29T11:00:15Z,0,0
+Rocky P,What a great time to be alive where you can learn coding from great teachers on YouTube,2022-04-29T11:01:13Z,1,0
+Rocky P,"Brilliant presentation, great music too and easy to follow",2022-04-29T11:00:15Z,1,0
 Veneya Miranda,Thank you very much sir. You the BEST!!!,2022-04-29T02:00:23Z,0,0
 DANIEL FARID BIN FAIZAL SGM,i'm new to mysql. hope that I could learn something and develop something simple at the end of this course.,2022-04-28T08:56:26Z,0,0
 Wisdom Adanfopah,Where are the zip files he mentioned,2022-04-28T01:26:16Z,0,0
 Celsius273,May I know where the link for the zip file is? I can't seem to find it. Thank you!,2022-04-27T12:48:13Z,1,0
 Celsius273,May I know where the link for the zip file is? I can't seem to find it. Thank you!,2022-04-27T09:12:26Z,1,0
-Ninoska Melian Garcia,"Hello Mosh, Thank for video but I have blocked with the exercise with JOIN tables (1:33:00) and when I checked your solution I have realized that the solution doesn't show the ""name"" column.... It supossed that we join the table to bring this column back",2022-04-27T08:36:24Z,0,0
 Viral Tube,thank you  sir good tutorial ❤️,2022-04-27T03:31:21Z,0,0
 Madhav Maru,Great Tutorial!,2022-04-26T18:27:50Z,0,0
 Mikail Yagiz,"Someone help me out here:   At the beginning, I notice I have not got the “schema tap” Mosh must have skipped that part.",2022-04-26T15:17:29Z,0,1
@@ -40,11 +27,7 @@ S.M.H.M,"You have to announce you are an Iranian, so that our prestige boosts in
 ED,Explains more than their documentation,2022-04-24T16:24:47Z,0,0
 Fuck off google,The cheat sheet link is no longer valid. Any chance you could please provide an updated link?,2022-04-24T13:40:34Z,2,0
 Kingdom Okozu,"Mosh, Im having a hard time installing MySQL. Im using a MacBook Pro. I keep getting a message saying ""MySQL 8.0.28-community can't be installed this computer"". WHAT DO I PLEASE?",2022-04-24T12:30:20Z,1,5
-Fev B,@Kingdom Okozu You’re welcome! Best of luck on your journey :),2022-04-30T02:04:24Z,0,
-Kingdom Okozu,@Fev B Thanks a lot. I just tried your suggestion. It worked!,2022-04-29T08:13:12Z,1,
-Fev B,@Kingdom Okozu  I just figured it out. If your processor is intel than download the x86 (2nd one). If your processor is Apple M1 CPU then we download the first one which is (arm).,2022-04-28T20:02:06Z,1,
-Kingdom Okozu,@Fev B I haven't figured it out yet,2022-04-28T18:59:47Z,0,
-Fev B,Have you figured it out? I am having the same issue.,2022-04-28T18:29:00Z,0,
+Fev B,@Kingdom Okozu You’re welcome! Best of luck on your journey :),2022-04-30T02:04:24Z,1,
 Gourav Chouhan,"That's not trick, it's deMorgans law",2022-04-24T06:37:20Z,0,0
 qinyuan li,could anyone help? i couldn't find the zip file that mentioned in the tutorial,2022-04-24T05:02:59Z,0,0
 Roy LUO,"For beginners like me.
@@ -52,266 +35,3 @@ I had some issues creating the databases with the script.
 Please replace utf8 with UTF8MB4, and do not specify the width of an integer value, such as replace int(11) with int & replace smallint(6) with smallint, if you have any 1681 warnings.",2022-04-24T01:37:29Z,0,0
 Kira Rejina,"Попасть в IT, стать мастером маркетинга или освоить другую профессию — всё это вы сможете в Skillbox. Сотни курсов по самым разным направлениям. Скидка тут 👉 https://go.redav.online/20f9a580fd704cb0",2022-04-22T14:18:23Z,0,0
 Isant sharma,can we not open utf-8 for mac in windows mysql?,2022-04-22T10:07:49Z,0,0
-google google,did anybody buy the full course? any recommendations,2022-04-21T22:17:57Z,0,0
-Bamidele Lawal,I am using the MySQL Workbench version 8.0.28,2022-04-21T14:04:11Z,0,0
-Paolo Flores ඞ,Note that MariaDB doesn’t support the full outer join or full join,2022-04-21T02:05:00Z,0,0
-Jon Avis,Great Tutorial!,2022-04-20T13:10:07Z,0,0
-P'lavi,"Hi Mosh, I tried to download SQL products in that installer window, and couple of them showed  error, and after retrying the download, the progress showed a 'nonclickable' Ready to download option. I tried again and it's just stuck. :( Please help.",2022-04-19T22:38:56Z,0,0
-Sarah,"I am so grateful for having access to this great education. thank you for your time and efforts, my amazing teacher! You make us love learning even more!",2022-04-19T19:02:18Z,0,0
-Utban Ali,"Great course loved it. Thank you so much.
-
-Do you have more exercises which we can use for practicing?",2022-04-19T18:35:51Z,0,0
-SUJITH JULAKANTI,"at 17:34 I am unable to load the SQL file,it shows unknown file encoding",2022-04-19T05:40:20Z,0,1
-SUJITH JULAKANTI,can anyone copy paste the text in the file here,2022-04-19T05:48:21Z,0,
-albert hailey,"There are no dummies , there are only bad teachers. After taking many udemy courses trying to master SQL without any progress, I finally understand SQL. You are a great teacher.",2022-04-18T19:20:05Z,0,0
-cg,<3,2022-04-18T07:23:20Z,0,0
-manoj jaiswal,"Virginia is not duplicated 
-🤣",2022-04-18T04:40:25Z,0,0
-Nebiyu Kebir,Can we do top 3 without Limit and pick top 3 from charts?,2022-04-17T20:33:30Z,0,0
-Hamza Khan,ganjay tu bht acha kam karta ha,2022-04-17T11:25:54Z,0,0
-Mathstube,from where can we get operational data or database from website and all,2022-04-15T13:04:16Z,0,0
-AmirAslan Aslani,ممنون آقای مشفق,2022-04-15T08:40:50Z,0,0
-HANNAH WRIGHT,where is the zip file?,2022-04-14T17:22:05Z,0,0
-Blue bison,"1:09:23 I don't think the solution should be WHERE first_name REGEXP 'ELKA|AMBUR' because this expression searches for first_name that contains ELKA or AMBUR when the question specifically asks for first_name equal 'ELKA' or 'AMBUR' only. If the first_name were 'Amburella' or 'Elkason', this expression would have returned these 2 names. the right solution should be WHERE first_name LIKE 'ELKA' OR first_name LIKE 'AMBUR'",2022-04-14T14:09:04Z,0,0
-Darshana Chandera,Can I switch to data science from medical stream without maths background?,2022-04-14T07:03:31Z,0,0
-낟,is there a problem if i dont have mysql workbench ? my os system cant be updated to the required version,2022-04-14T01:08:05Z,0,0
-Aslane Samai,"Hey there, thanks for the course,  the thing is when i create the tables using the database you provided, i get errors and some are empty, what can i do ?",2022-04-12T17:20:31Z,0,0
-Akugbe Henry,Hello Josh. Thanks for this tutorial. I want to purchase the full mastery course but payment is declined. I'm from Nigeria. Please how do I go about it?,2022-04-12T15:35:40Z,0,0
-ali abbas,"I've an issue regarding root password. Problem is ""system asking me to enter root password"". how I can do this? even though I've not created root acc.",2022-04-12T09:43:41Z,0,0
-Zhiyi Cheng,May I ask that why I can't get all the four dbs after I refresh SCHEMAS? Thanks,2022-04-11T13:35:03Z,0,0
-Michael Johnston,This is a great tutorial. The speed and way you explain is great. Thank you Mosh! I appreciate the time and effort you took to create this.,2022-04-09T17:37:19Z,2,0
-Rahan Ajai,1:08:55,2022-04-09T13:48:40Z,0,0
-Robin Frankham,"I've come across an anomaly that I can't get my head around... can anyone give a reason for this.
-
-At 3.10.18 in the tutorial there is an exercise concerning the 'ORDER BY' statment.
-
-If I write the query as :
-
-1 SELECT * 
-2 FROM order_items 
-3 WHERE order_id = 2
-4 ORDER BY quantity * unit_price 
-
-I get records with product_id 6, 4 & 1 in that order - (ascending order)
-
-If I write the query as :
-
-1 SELECT * 
-2 FROM order_items 
-3 WHERE order_id = 2
-4 ORDER BY quantity * unit_price DESC
-
-I get records with product_id 1, 4 & 6 in that order - (descending order) - So far so good
-
-If I write:
-
-1 SELECT *, quantity * unit_price as 'Total Cost'
-2 FROM order_items 
-3 WHERE order_id = 2
-4 ORDER BY  'Total Cost' DESC
-
-I get records with product_id 1, 4 & 6 in that order - (descending order) - again fine
-
-If I write:
-
-1 SELECT *, quantity * unit_price as 'Total Cost'
-2 FROM order_items 
-3 WHERE order_id = 2
-4 ORDER BY  'Total Cost'
-
-I still records with product_id 1, 4 & 6 in that order - (descending order) - Aargh!... Surely, line 4 should cause the result to be in ascending order?
-
-Am I doing something wrong? If so what?... is this an anomaly in SQL? If so, are there any others I should know about?
-
-Rob F",2022-04-09T10:13:27Z,0,0
-Rahan Ajai,54:13,2022-04-09T08:49:11Z,0,0
-"Estavillo, Rosalie L.",✨,2022-04-08T08:06:41Z,0,0
-Jay Chopra,how to add serial no. column in my existing table which have 30 rows (in mysql),2022-04-07T19:34:25Z,0,0
-Owen,"Why would somebody use aliases to 'simplify' SQL code? Like other languages, isn't it better to have names state exactly what they are, e.g. 'customers' is the 'customers' table, rather than 'c'. This could be anything and can just get messy.",2022-04-07T16:45:55Z,1,2
-Owen,"@Harsh Gupta harsh reply, gupta",2022-04-12T12:45:01Z,0,
-Harsh Gupta,IT HELPS IN SIMPLIFYING YOUR CODE MATE.,2022-04-11T07:37:40Z,0,
-Nicolae Zamfir,"first exercise from REGEXP tutorial is :
-SELECT *
-FROM customers
-WHERE first_name IN ('AMBUR','ELKA')
-
-You are asking to display only the firs names with AMBUR or ELKA. Your REGEXP command will display all first name who contains those two words, not the ones who are exactly those two words. Using the IN you will filter only for those two, as per request.",2022-04-06T17:51:36Z,0,2
-Meruyert Bakytbergen,"@Nicolae Zamfir Im not gonna email you, without your mail. You r so kind. Thank you anyway",2022-04-07T10:06:21Z,0,
-Nicolae Zamfir,"@Meruyert Bakytbergen I downloded the same files and worked for me, try again and watch the video. Don't email me.",2022-04-07T04:54:27Z,0,
-Visag Venugopal,"Hi Mosh,
-
-The codes are only getting implemented when I write in this format
-
-SELECT * FROM sql_store.customers
-WHERE state in ('VA','GA','FL')
-
-am getting an error when it is written like your tutorial 
-
-SELECT * FROM customers
-WHERE state in ('VA','GA','FL')",2022-04-06T06:19:59Z,0,0
-All Standard,… No one can learn how to ride a bicycle by just watching a YouTube video!,2022-04-06T05:19:22Z,0,0
-Cornelius Jermaine Hightower,The cheat was very helpful as a reference. If I take the full course will the cheat sheet be a complete sheet with the advance code?,2022-04-06T00:37:13Z,0,0
-Saswat Mishra,"Hi @Mosh, thanks very much for this super easy tutorial.
- I have a doubt.
-In the part where we are discussing AND, OR, NOT operators, in the query:
-
-SELECT * FROM customers WHERE birth_date > '1990-01-01' OR points > 1000 AND state = 'VA';
-
- In the comparison made with points, you haven't given quotes but on birth_date you have given. Isn't 1000 a textual character? If not, then why date of birth is textual?",2022-04-05T19:51:14Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:47:34Z,0,
-Y,"i like the course very much. my english is not very good, but i can unterstand what you say, i enjoy the course.",2022-04-05T14:11:09Z,1,0
-Vincesaint TengFu,"I had a problem, the MYSQL installer for Windows only installed 4 components without the MySQL Workbench and some other things included in this video. So I tried manually choosing every component available to install them as follows: MYSQL server 8.0, Workbench 8., Shell 8., Router 8.0, Connector ODBC 8.0, Connector C 8.0. Now im waiting for the installation to complete",2022-04-05T05:36:00Z,0,0
-crystal villanueva,"at 2:05, I did another solution for outer joining multiple tables: 
-
-```select 
-    o.order_date, 
-    o.order_id, 
-    c.first_name as customer, 
-    s.name as ""shipper"", 
-(case when o.status = 1 then ""Processed"" else ""Shipped"" end) as status 
-from orders o 
-left join shippers s on o.shipper_id = s.shipper_id 
-join customers c on c.customer_id = o.customer_id
-order by o.status asc;``` 
-
-I just wanted to throw this out there in case someone wanted to use it !",2022-04-05T01:01:31Z,0,0
-Abdullah Al Nayem,Thanks,2022-04-04T20:19:05Z,0,1
-Abdullah Al Nayem,i don't have those,2022-04-08T20:19:17Z,0,
-gayatri devi Gora,"I love it how he says ""MySQL will yell at me/you""",2022-04-04T13:32:50Z,0,0
-Sarah P. Layne,what happened to the cheat sheet???,2022-04-04T12:43:40Z,0,0
-Bidhan RY,Solution For the excercise at  2:13:27 my output is different(less no. of records),2022-04-04T12:17:39Z,0,0
-Sathish K,"Hi 
-@3:070;54 in the sub querry , instead of ""  SELECT *  "" the statement should be "" SELECT clients_id"".
-is that correct?",2022-04-04T07:13:46Z,0,1
-Sathish K,"@Meruyert Bakytbergen 
-DELETE FROM invoices
-WHERE client_id = ( 
-SELECT *
-FROM clients 
-WHERE name = ' MyWorks'
-)
-
-OR
-
-DELETE FROM invoices
-WHERE client_id = ( 
-SELECT client_id
-FROM clients 
-WHERE name = ' MyWorks'
-)
-
-which is correct ?",2022-04-09T09:48:43Z,0,
-Ash,Excercises in this course is its main workhorse thanku for providing such content nd helping community will take your advance course after a while .,2022-04-03T10:37:37Z,0,0
-Mima Oriazowan,"Hello Mosh, please do you have a pup tutorial for beginners?",2022-04-03T00:33:12Z,0,0
-Daniel Nariño,"Oh can you help me? opening the database file it says me ""Uknown file encoding"" what do i do?",2022-04-02T21:16:43Z,0,1
-Meruyert Bakytbergen,"the same problem, can't learn it properly without downloading, could you solve it?",2022-04-06T21:09:48Z,0,
-Doğukan,"I have a question. at 2:13:31 how can I find total amount paid by a single client. For example, how much did Yadel paid in total from credit card?",2022-04-02T07:58:53Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:48:30Z,0,
-Chill Mar,cheat sheet is missing can any1 help me to get 1 (other site is fine),2022-04-02T04:43:18Z,0,1
-Meruyert Bakytbergen,"Hi, I can send you cheatsheet, could you pliz send me scpipt files? couldn't load them",2022-04-08T19:49:17Z,0,
-abc,Some guy used to call it SQL at work ... we took him behind the dumpster and beat him mercilessly.,2022-04-01T20:47:35Z,1,0
-Sakshi Bhagat,where is the zip file which you have attached below the video  while creating database?I cannot find it plz help in,2022-04-01T17:56:12Z,0,0
-James Nathaniel Rubios,"you're a great teacher! but the database has too many error codes for microsoft ssms.  i couldn't perform the exercises you've given. i hope you also have codes for the database in microsoft ssms. anyways, thank you very much teacher mosh! i've learned a lot",2022-04-01T16:50:43Z,0,0
-Ajit Kumar Gupta,Best teacher ever .....I wish I had you in my school,2022-04-01T16:16:47Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:49:47Z,0,
-Karthi Keyan,Zip file is not available. can u pls send it.,2022-03-31T16:27:16Z,0,0
-Rodrigo Chegüe Escalante,"Thanks, man, I really appreciate your work  I have already shared, liked, and subscribe.  Regards from Mexico.",2022-03-31T15:01:54Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:49:54Z,0,
-Padma T,"Sir I am unable to purchase sql course,",2022-03-31T11:40:46Z,0,0
-hakim bappy,i am facing problem loading the database download link can anyone help me overcome this?,2022-03-30T10:20:56Z,0,0
-J F,Dont waste your time on this. All the course materials are pretty much outdated.,2022-03-30T08:05:46Z,0,0
-agness princess,Thank You for helping us,2022-03-30T07:38:59Z,0,0
-Chris Luddy,2.20,2022-03-29T22:33:21Z,0,0
-Tubosun Oyekunle,Hi Mosh. I cannot find the zip file,2022-03-29T17:22:10Z,1,0
-ShillaWolf,"Thank you for this amazing tutorial, i did not understand anything from the book they gave us for my course in database design. And now i atleast master the basic commands. This was very very helpfull, thank you ^^",2022-03-29T09:52:48Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:50:31Z,0,
-CrackRokMcCaib,1:15:23 bookmark,2022-03-29T01:36:11Z,0,0
-PersiusKane ( Phoenix Studio ),Hmmm Hey I can't download the cheat sheet. Anyone know why?,2022-03-29T01:15:09Z,0,1
-Meruyert Bakytbergen,"Hi, I can send you cheatsheet, could you pliz send me scpipt files? couldn't load them",2022-04-08T19:51:14Z,0,
-Aman Gupta,"Thankyou so much SIR, for this content and cheat sheet. This is so helpful for my future.",2022-03-28T18:57:46Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:51:26Z,0,
-Ankit Kumar,only one word *best* .,2022-03-27T08:31:09Z,0,0
-sadhana dukka,"Thank you for the course, but the cheat sheet is not accessible, can you please provide the cheatsheet.",2022-03-27T02:03:42Z,0,1
-Meruyert Bakytbergen,"Hi, I can send you cheatsheet, could you pliz send me scpipt files? couldn't load them",2022-04-08T19:51:36Z,0,
-Kouda Karthik,IS THIS SQL CONNECTS WITH PYTHON,2022-03-26T18:44:48Z,0,0
-Akinwole Adeyeye,"Thank you so much for this great lecture
-
-I use Windows. When I opened the script to create the database, sql_store, sql_invoicing and sql_hr didn't fully load. Says ""fetching""
-
-And the down panel (action output) isn't displaying like yours. I have always enjoyed your tutorials and would like to follow this one also to the end. 
-Someone should please help",2022-03-26T09:28:26Z,0,0
-Marjan Nikolic,"Thank you Mosh. Your videos are really educational.I want to check something.Didnt you say at 1:30:37 ""followed by its name"".Have you intentionally miss to  insert name in SELECT clause at 1:33:00 or we have to do like that?:)",2022-03-26T06:55:13Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:52:52Z,0,
-James Russell,"Oh man, thank you a lot for this course!!!!!!! Every minute of your time for this creation course is HIGHLY appreciated!!!",2022-03-25T05:24:34Z,1,1
-Meruyert Bakytbergen,"Hi! Could you please help me with downloading script files, although I downloaded them, they can't be opened in mysql. Tried to learn without them but it's difficult to learn joins not seeing files. I will write you my mail, If you are not against",2022-04-06T21:12:17Z,0,
-paulo bezerra,"Hey Mosh, Thanks for the wondeful class. I 'm trying to download the cheat sheet but is showing that is an erro with the page. can you help me?",2022-03-25T04:45:00Z,0,3
-Meruyert Bakytbergen,"@paulo bezerra I meant I can send you cheatsheet, u mentioned that u couldn't load it.  But also I want ask  u to send me script files of this course, I loaded them but mysql doesnt open them.",2022-04-08T20:46:15Z,0,
-paulo bezerra,Hey! What do you mean?,2022-04-08T20:32:13Z,0,
-Meruyert Bakytbergen,"Hi, I can send you cheatsheet, could you pliz send me scpipt files? couldn't load them",2022-04-08T19:52:23Z,0,
-OTAKU THE ANIMELOVER,Mysql for visual studio installation fail!! Will it cause me problem in future?if yes how can i solve it,2022-03-24T13:22:38Z,0,0
-gamer joe,44:00,2022-03-24T05:34:45Z,0,0
-Anu Garg,I cannot find schemas tab in mySQL Windows,2022-03-23T16:37:08Z,0,0
-sarvesh Pandey,Thank you for creating such a good course..,2022-03-23T06:31:28Z,0,0
-Roshan,SQL_store > Tables just stay fetching?,2022-03-23T01:24:38Z,0,0
-Mary Mzana,"You are way better than my database prof. 👍 They should learn from you.
-By the way, how to rename the schemas?",2022-03-23T00:46:09Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:52:58Z,0,
-Joyce Xu,Mosh you are a great teacher!!!,2022-03-22T15:51:55Z,0,0
-Jamal Hossain,Thank you for this great video. Thanks for your hard work Sir.,2022-03-22T15:13:22Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:53:04Z,0,
-Ahmed Farag,i can't find your cheat sheet:  can you send it please ❤😀,2022-03-21T17:25:54Z,0,1
-Meruyert Bakytbergen,"Hi, I can send you cheatsheet, could you pliz send me scpipt files? couldn't load them",2022-04-08T19:53:19Z,0,
-Adarsh Singh,"Excellent video. Brother, the cheat sheet that u have attached is not accessible. Could u please make it available to us.",2022-03-21T13:57:15Z,1,1
-Meruyert Bakytbergen,"Hi, I can send you cheatsheet, could you pliz send me scpipt files? couldn't load them",2022-04-08T19:53:25Z,0,
-Irvine Fonmetta,Finding it difficult to install MYSQL. Please help,2022-03-21T10:43:52Z,0,0
-Daniel Tesfay,Thank you for sharing! It's very useful tutorial!!!,2022-03-21T06:39:47Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:56:54Z,0,
-Sam Wilson,The video solution to the exercise on Inner Joins forgets to add p.name to the SELECT clause.,2022-03-20T19:31:06Z,0,0
-Bebe,I completed this 3 hours tutorial and I learned so much!!!!,2022-03-20T14:27:54Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:57:03Z,0,
-saul r,"Hello Mosh, how would be possible to create differences across rows with muktiple parameters. Does it need to be transformed? For example month on month analysis,",2022-03-18T14:03:33Z,0,0
-Mohamad Nagi,"great tutorial, however I ran into an error righ tat the end in the delete rows section , it says operand should contain 1 column(s)
-DELETE FROM invoices
-WHERE client_id IN (
-		SELECT *
-		FROM clients 
-		WHERE name = ""Myworks""
-)",2022-03-17T20:19:18Z,0,1
-Meruyert Bakytbergen,"Hi! Could you please send me script files, couldn't load them. I will write you my mail.",2022-04-08T19:57:11Z,0,
-sugandha gupta,"can we use IN operator with AND also? if so, plz share examples.",2022-03-17T19:40:03Z,0,0
-Highviewsport,I have a older Mac This workbench install won't work on my iMac.. Its running Catalina Mac version 10.15.7.  Do you know where I can get a version of workbench that will work? Thanks,2022-03-17T19:35:10Z,0,0
-Highviewsport,Thanks so much for a great explanation of a database and sql. I am an absolute bigger and you made it so easy to understand. Can I ask. I am only 20 or so minutes in and realise I really want to make my own tables and database based on those. Do you have a video on creating tables that I can use in my own project? I mean I want to see how you made the tables and things that we download. Thanks Bryan,2022-03-17T18:02:10Z,0,0
-Mohammed Hasan,"Thanks for your nice effort!
-Is the zipped file you mentioned in 3.10 still available? I can not see it. 
-Thanks!",2022-03-17T03:59:49Z,1,0
-Mr. Bugz,The script to create the database in this course is not working. T^T,2022-03-17T03:07:25Z,0,3
-Meruyert Bakytbergen,"@Mr. Bugz Hi! Could you please help me with downloading script files, although I downloaded them, they can't be opened in mysql. Tried to learn without them but it's difficult to learn joins not seeing files. I will write you my mail, If you are not against",2022-04-06T21:13:48Z,0,
-Roshan,"@Mr. Bugz how did you fix it, mine just says ""fetching""",2022-03-23T01:10:11Z,0,
-Mr. Bugz,I'm good now,2022-03-17T03:27:08Z,0,
-James Anthony,Where are the SQL zip files?,2022-03-16T19:19:16Z,1,0
-Temur Soliev,"The tutorials are truly simple to understand and taught in a very beginner-friendly way. Thank you, Mosh! I love your channel!",2022-03-16T19:10:04Z,3,0
-Aplexity,The link is dead on your Cheatsheet. Any updates?,2022-03-15T14:52:57Z,0,1
-Meruyert Bakytbergen,"I can send you cheatsheet, I downloaded it, but script files don't work, could you pliz send me to my mail these files?",2022-04-06T21:15:06Z,0,
-vinay joshii,"Hi Mosh, i am stuck at opening create-database.sql file, it says unknown file encoding, i tried selecting all character set encoding name but still unable to open file please help",2022-03-15T06:00:13Z,1,2
-Meruyert Bakytbergen,"@vinay joshii the same problem, could you overcome it?",2022-04-06T21:15:35Z,0,
-vinay joshii,anyone please help,2022-03-15T06:05:27Z,1,
-Shubham Oulkar,I solved all challenges without any search or hints.,2022-03-15T04:55:35Z,0,0
-swastik mohapatra,1:40:00 - 2:24:00,2022-03-15T01:19:12Z,0,0
-R J musical villa,You are really magician in coading mosh.,2022-03-14T09:20:20Z,0,0
-Simeitsa Stamoulas,Hi i cant download this on my Mac.I get an error saying this file can not be downloaded and the setup closes. any advice on this?,2022-03-13T14:13:57Z,0,0
-Masta Patui,"i’ve learned a lot. C, Java, HTML, JS, py all from you and for free. i wish to repay you once i have a source of income but for now i wish that your name be remembered by many <3",2022-03-13T05:33:25Z,1,0
-Pluvo2for1,WIll you put the full course on Udemy?,2022-03-12T21:31:51Z,0,0
-Abhishek Ghawalkar,How to indent text in my sql can you pls tell shortcut key for that?,2022-03-11T11:57:16Z,0,0
-ATEM BOL,education is key to every human being                                 [[[[[[[[[]]] ]]]]]]]]]]] for education is passport to all the who learned very well because is the right way of lives,2022-03-11T11:06:14Z,0,0
-Mark Bhenjson Dimasupil,sql or squel its like pineapple on pizza yes? or no?,2022-03-11T09:52:49Z,0,0
-Hey A,Why cant i download mySQL in my mac sierra? pls help,2022-03-11T05:45:14Z,0,0
-Changling,1:18:27,2022-03-11T04:00:40Z,0,0
-Syed Jameeluddin,Thank You So Much :-),2022-03-10T14:21:49Z,0,0
-Rajesh Yadav,Cheat sheet is not available get.link expired. Possible help,2022-03-10T13:18:25Z,1,1
-Meruyert Bakytbergen,"I can send you cheatsheet, I downloaded it, but script files don't work, could you pliz send me to my mail these files?",2022-04-06T21:16:47Z,0,
-goku,Learn my sql with johnny sins 😤😤,2022-03-10T07:44:48Z,1,0
-Robert,Cheat Sheet without the sign up - https://programmingwithmosh.com/wp-content/uploads/2019/03/SQL-Cheat-Sheet.pdf,2022-03-09T23:59:38Z,1,1
-George Costanza,The real hero.,2022-03-14T15:23:27Z,0,
-Jai Tiwari,"Sir when I use your sql code in mysql workstation, it is showing error for few tables",2022-03-09T07:00:51Z,0,0
-TMF,This course is garbage for Windows,2022-03-08T21:27:49Z,0,0
-Swaroop Facts,Please do videos on power bi,2022-03-08T14:50:10Z,0,0

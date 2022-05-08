@@ -20,3 +20,8 @@ class ScrapingParametersInternal(ScrapingParameters):
             return "InvalidURL"
         return v[len("https://www.youtube.com/watch?v="):]
     
+
+class AuthModel(BaseModel):
+    username: str
+    password: str
+    email: str
