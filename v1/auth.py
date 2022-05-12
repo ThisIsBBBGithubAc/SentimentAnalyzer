@@ -1,12 +1,15 @@
-import os
+import os, secrets
 import jwt # used for encoding and decoding jwt tokens
 from fastapi import HTTPException 
 from passlib.context import CryptContext # used for hashing the password 
 from datetime import datetime, timedelta
+from decouple import config
+
 
 class Auth():
+
     hasher= CryptContext(schemes=['bcrypt'])
-    secret = os.getenv("APP_SECRET_STRING")
+    secret = secrets.token_hex(30)
 
     def encode_password(self, password):
         return self.hasher.hash(password)

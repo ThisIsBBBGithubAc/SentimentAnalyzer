@@ -1,61 +1,81 @@
-import uvicorn #, schedule, time
-# from v1.url_expiration import expire_url
+import uvicorn
 from fastapi import FastAPI
-# from v1.db import Base, engine
 from v1 import api
 from fastapi.middleware.cors import CORSMiddleware
 
-# description = """
+description = """
 
-# **This API enables developers to convert a lengthy URL into a short one
-# 🚀**
-
-  
-  
-
-# ## **Features**
-
-#   - It accepts custom and unique short code for URL shortening
-#   - Automatically generates unique short code if user given custom short
-#     code is set to **null** or not given
-#   - User can set URL validity days after which the Shortened URL will be
-#     invalid automatically i.e all its info will be discarded  
-#     from the database. Shortened URL will never be expire if URL validity
-#     days is not set or set to **null**
-#   - This API returns URL information at **/{Short Code}/info** endpoint.
+**This API enables developers to use the json data of Sentiment Analysis of YouTube comments and user given text
+🚀**
 
   
   
 
-# """
+## **Features**
 
-# tags_metadata = [
+  - Developer first need to signup to user this API
+  - This API returns json data of sentiment of YouTube comments and user given text
+  - Users can use this API without authentication to perform sentiment analysis on
+    YouTube comments and user given text. JSON data will be returned only after authentication
 
-#     {
-#         "name": "Shorten URL",
-#         "description": " Convert lengthy URL into a short one "
-#     },
+  
 
-#     {
-#         "name": "Redirect With Short-Code",
-#         "description": "Get redirected to the original URL"
-#     },
+"""
 
-#     {
-#         "name": "Short-URL Info",
-#         "description": "This returns Shortened URL information.",
-#         # "summary": "Get URL info."
-#     },
+tags_metadata = [
 
-# ]
+    {
+        "name": "Sentiment Analysis",
+        "description": "Hello, this is a sentiment analyser REST API."
+    },
+
+    {
+        "name": "Sign Up",
+        "description": "This endpoint is for registering users to use this API data"
+    },
+
+    {
+        "name": "Sign In",
+        "description": "This endpoint is for authentication."
+    },
+    {
+        "name": "Refresh Token",
+        "description": "This endpoint receives a refresh token which is then passed onto the the function from auth logic to get a new token."
+    },
+    {
+        "name": "Delete User (Authentication Required)",
+        "description": "This endpoint is for deleting user data completely."
+    },
+    {
+        "name": "Sentiment Analysis On YouTube Comments",
+        "description": "This endpoint performs sentiment analysis on YouTube comments."
+    },
+    
+    {
+        "name": "Sentiment Analysis On User Given Text",
+        "description": "This endpoint performs sentiment analysis on user given text."
+    },
+
+    {
+        "name": "Sentiment Analysis On YouTube Comments (Authentication Required)",
+        "description": "This endpoint returns json data of sentiment analysis on YouTube comments."
+    },
+
+    {
+        "name": "Sentiment Analysis On User Given Text (Authentication Required)",
+        "description": "This endpoint returns json data of sentiment analysis on user given text."
+    },
+
+
+]
 
 
 app = FastAPI(
 
     docs_url="/doc",
     redoc_url=None,
-    # title="REST API For URL Shortening",
-    # description=description,
+    title="REST API For Sentiment Analysis",
+    description=description,
     version="0.0.1",
     # terms_of_service="http://bbbwebsite.com/terms/",
     contact={
@@ -67,18 +87,18 @@ app = FastAPI(
         "name": "The MIT License",
         "url": "https://opensource.org/licenses/MIT",
     },
-    # openapi_tags=tags_metadata
+    openapi_tags=tags_metadata
 
     )
 
 app.include_router(api.router)
 
-origins = [
-    "http://127.0.0.1:8000",
-    # "https://yourl-short3n3r.herokuapp.com/",
-]
+# origins = [
+#     "http://127.0.0.1:8000",
+#     "https://8000-appwrite-integrationfor-nf192dig6sr.ws-us44.gitpod.io/",
+# ]
 
-# origins = ["*"] # not recommended for production
+origins = ["*"] # not recommended for production
 
 # "In order for our REST API endpoints to be consumed in client applications such as Vue, React, Angular or any other Web applications that are running on other domains, we should tell our FastAPI to allow requests from the external callers to the endpoints of this FastAPI application. We can enable CORS (Cross Origin Resource Sharing) either at application level or at specific endpoint level."
 app.add_middleware(
@@ -88,27 +108,6 @@ app.add_middleware(
     allow_methods=["POST", "GET"],
     allow_headers=["*"],
 )
-
-
-# for creating database with defined models
-# Base.metadata.create_all(bind=engine)
-
-
-# def run_on_thread():
-#     schedule.every(5).seconds.do(expire_url)
-#     print("I'm Running")
-#     # schedule.every().day.at("01:00").do(expire_url) # 1.00 am
-#     # schedule.every().day.at("10:00").do(expire_url) # 10:00 am
-#     # schedule.every().day.at("17:00").do(expire_url) # 5:00 pm
-
-#     while True:
-#         print("Background Worker Running.")
-#         schedule.run_pending()
-#         time.sleep(3)
-
-# t = Thread(target=run_on_thread, daemon = True) # when daemon = True then this background thread(the "run_on_thread" function) will be stopped when the main thread(when the fastapi app is exited) is exited. otherwise the "run_on_thread" function will be running even after the fastapi app is stopped.
-# t.start()
-
 
 
 #used for development environment

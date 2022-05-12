@@ -1,5 +1,5 @@
 from typing import Optional
-from pydantic import BaseModel, conint, AnyHttpUrl, validator, Field
+from pydantic import BaseModel, EmailStr, AnyHttpUrl, validator, Field
 
 
 class ScrapingParameters(BaseModel):
@@ -20,8 +20,10 @@ class ScrapingParametersInternal(ScrapingParameters):
             return "InvalidURL"
         return v[len("https://www.youtube.com/watch?v="):]
     
+class UserGivenText(BaseModel):
+    user_given_text: str
 
 class AuthModel(BaseModel):
     username: str
     password: str
-    email: str
+    email: Optional[EmailStr] = None

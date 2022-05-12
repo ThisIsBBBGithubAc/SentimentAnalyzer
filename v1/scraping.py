@@ -1,8 +1,14 @@
 from googleapiclient.discovery import build
 import pandas as pd
 import sys, os
+from decouple import config
 
-youtube = build('youtube', 'v3', developerKey= "AIzaSyCP7mBQ4QGfoJQ-UfhJ19lNVnlJEUOHMw4")
+
+developerKey = os.environ.get('GOOGLE_DEVELOPER_KEY')
+if developerKey is None:
+    developerKey = config('GOOGLE_DEVELOPER_KEY')
+    
+youtube = build('youtube', 'v3', developerKey=developerKey)
 
 def scrape_youtube_comments_with_replies(video_url, file_name, maxComments, maxCommentReplies, nextPage_retrive_limit, youtube=youtube):
 

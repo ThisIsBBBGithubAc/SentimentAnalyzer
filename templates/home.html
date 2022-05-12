@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+
+
+
+
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:20px 16px">
+  <b class="w3-xxxlarge w3-text-blue"><big>Sentiment Analyzer</big></b>
+  <p class="w3-large">Use sentiment analysis to quickly detect emotions in text data</p>
+  
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="/doc" class="w3-bar-item w3-button">Document</a>
+      <a href="/" class="w3-bar-item w3-button w3-light-grey">Home</a>
+      <a href="/about" class="w3-bar-item w3-button">About</a>
+    </div>
+  </div>
+</header><br><br>
+
+<!-- Start  Content -->
+<div class="w3-padding-large" style="margin-bottom:128px">
+  
+
+
+
+  <center>
+    {% if data %}
+    <div class="w3-card-4 w3-hide-small" style="width:50%;">
+      <br>
+      <div class="w3-container">
+        <b class="w3-left w3-xxlarge w3-opacity">Results</b>
+      </div>
+      <h3 class="w3-opacity">Overall Analysis</h3>
+      <div class="w3-container">
+        <p class="w3-opacity w3-left w3-large">Sentiment</p>
+        <p class="w3-opacity w3-right w3-large">Score</p>
+      </div>
+      <hr style="width:95%;">
+      <div  class="w3-row w3-padding">
+        <b class="w3-left w3-green" style="font-size:13px;">Positive</b>
+        <b class="w3-right w3-text-black" style="font-size:13px;">{{positive}}</b>
+      </div>
+      <div  class="w3-row w3-padding">
+        <b class="w3-left w3-amber" style="font-size:13px;">Neutral </b>
+        <b class="w3-right w3-text-black" style="font-size:13px;">{{neutral}}</b>
+      </div>
+      <div  class="w3-row w3-padding">
+        <b class="w3-left w3-red" style="font-size:13px;">Negative</b>
+        <b class="w3-right w3-text-black" style="font-size:13px;">{{negative}}</b>
+        <br>
+      </div>
+
+
+      {% if each_sentence_info %}
+      <hr style="width:95%;">
+      <h3 class="w3-opacity">Sentence Wise Analysis</h3>
+      {% for info in each_sentence_info_list %}
+      <div  class="w3-row w3-padding w3-justify">
+        <b class="w3-opacit w3-text-gray" style="font-size:10px;"><big class="w3-text-blue">SENTENCE: </big>{{info.sentence}}</b><br>
+        <b class="w3-opacit w3-text-gray" style="font-size:10px;"><big class="w3-text-teal">SENTIMENT: </big>{{info.sentiment}}</b><br>
+        <b class="w3-opacit w3-text-gray" style="font-size:10px;"><big class="w3-text-green">CONFIDENCE: </big>{{info.score}}</b>
+        <br><br>
+      </div>
+      {% endfor %}
+      {% endif %}
+      </div>
+      {% endif %}
+  
+
+  </center>
+
+  
+
+
+
+
+
+  
+
+  <center>
+    {% if data %}
+    <div class="w3-card-4 w3-hide-large w3-hide-medium" style="width:100%;">
+      <br>
+      <div class="w3-container">
+        <b class="w3-left w3-xxlarge w3-opacity">Results</b>
+      </div>
+      <h3 class="w3-opacity">Overall Analysis</h3>
+      <div class="w3-container">
+        <p class="w3-opacity w3-left w3-large">Sentiment</p>
+        <p class="w3-opacity w3-right w3-large">Score</p>
+      </div>
+      <hr style="width:95%;">
+      <div  class="w3-row w3-padding">
+        <b class="w3-left w3-green" style="font-size:13px;">Positive</b>
+        <b class="w3-right w3-text-black" style="font-size:13px;">{{positive}}</b>
+      </div>
+      <div  class="w3-row w3-padding">
+        <b class="w3-left w3-amber" style="font-size:13px;">Neutral </b>
+        <b class="w3-right w3-text-black" style="font-size:13px;">{{neutral}}</b>
+      </div>
+      <div  class="w3-row w3-padding">
+        <b class="w3-left w3-red" style="font-size:13px;">Negative</b>
+        <b class="w3-right w3-text-black" style="font-size:13px;">{{negative}}</b>
+        <br>
+      </div>
+
+
+      {% if each_sentence_info %}
+      <hr style="width:95%;">
+      <h3 class="w3-opacity">Sentence Wise Analysis</h3>
+      {% for info in each_sentence_info_list %}
+      <div  class="w3-row w3-padding w3-justify">
+        <b class="w3-opacit w3-text-gray" style="font-size:10px;"><big class="w3-text-blue">SENTENCE: </big>{{info.sentence}}</b><br>
+        <b class="w3-opacit w3-text-gray" style="font-size:10px;"><big class="w3-text-teal">SENTIMENT: </big>{{info.sentiment}}</b><br>
+        <b class="w3-opacit w3-text-gray" style="font-size:10px;"><big class="w3-text-green">CONFIDENCE: </big>{{info.score}}</b>
+        <br><br>
+      </div>
+      {% endfor %}
+      {% endif %}
+      </div>
+      {% endif %}
+  
+      <br><br><br> 
+  </center> 
+   
+
+
+
+
+<center>
+ <form id="urlform" method="post" action="/analysis/youtubeComments" style="width:80%;">
+
+    <input class="w3-input" placeholder="Enter YouTube video link" type="url" name="youtube_link" pattern="https://.*" required>
+    <br>
+    <label class="w3-opacity" >Number of comments to retrive(1 to 100): </label>
+    <input class="w3-opacity" type="number" name="maxComments" value="20" min="1" max="100">
+    <br><br>
+    <label class="w3-opacity" >Number of comment's replies to retrive(1 to 100): </label>
+    <input class="w3-opacity" type="number" name="maxCommentReplies" value="20" min="1" max="100">
+    <br><br>
+    <label class="w3-opacity" >Number of next pages to retrive comments(1 to 100): </label>
+    <input class="w3-opacity" type="number" name="nextPage_retrive_limit" value="20" min="1" max="100">
+    <br>
+    
+ </form><br><br>
+
+  <center><button form="urlform" class="w3-button w3-round w3-blue" >Submit</button></center>
+</center>
+
+
+<br><br>
+
+<center>
+
+  <p class="w3-large w3-text-gray">OR</p>
+<br><br>
+
+
+
+  <form  method="post" action="/analysis/UserGivenText" style="width:80%">
+ 
+    <textarea class="w3-input w3-border" name="text" rows="10" cols="80" placeholder="Put your own text to perform sentiment analysis" required></textarea>
+    
+    <br></br>
+    <center><input type="submit" class="w3-button w3-round w3-blue" value="Submit"></center>
+
+  </form>
+
+</center>
+<!-- End Page Content -->
+
+
+
+</div>
+
+
+
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center"> 
+ <p>Thank You for visiting our website</p>
+  <p>Connect with us on</p>
+  <div class="w3-large">
+  <i class='fab fa-facebook w3-text-blue' style='font-size:25px;'></i>&nbsp;&nbsp;&nbsp;
+  <i class='fab fa-instagram w3-text-pink' style='font-size:25px;'></i>&nbsp;&nbsp;&nbsp;
+  <i class='fab fa-snapchat w3-text-amber' style='font-size:25px;'></i>&nbsp;&nbsp;&nbsp;
+  <i class='fab fa-twitter w3-text-blue' style='font-size:25px;'></i>&nbsp;&nbsp;&nbsp;
+  <i class='fab fa-pinterest w3-text-red' style='font-size:25px;'></i>&nbsp;&nbsp;&nbsp;
+  <i class='fab fa-linkedin w3-text-indigo' style='font-size:25px;'></i>
+  </div>
+ 
+</footer>
+
+
+
+
+</body>
+</html>
