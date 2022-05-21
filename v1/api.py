@@ -10,16 +10,29 @@ import pandas as pd
 
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from .auth import Auth
-from .appwrite import add_document, isUserNameExist, delete_document
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse
 from fastapi import Request, Form
+from decouple import config
+
+from deta import Deta
 
 security = HTTPBearer()
 auth_handler = Auth()
 router = APIRouter()
 templates = Jinja2Templates(directory="templates")
 
+
+PROJECT_KEY = os.environ.get('PROJECT_KEY')
+if PROJECT_KEY is None:
+    PROJECT_KEY = config('PROJECT_KEY')
+
+DETA_BASE_NAME = os.environ.get('DETA_BASE_NAME')
+if DETA_BASE_NAME is None:
+    DETA_BASE_NAME = config('DETA_BASE_NAME')
+
+deta = Deta(PROJECT_KEY) 
+db = deta.Base(DETA_BASE_NAME)
 
 
 @router.get("/", tags=["Sentiment Analysis"], response_class=HTMLResponse)
@@ -31,12 +44,14 @@ async def read_root(request: Request):
 @router.post('/auth/signup', tags=["Sign Up"])
 def SignUp(user_details: AuthModel):
     try:
-        if isUserNameExist(user_details.username) is not None:
+        results = db.fetch({"username": user_details.username}).items
+        # fetch_res = fetch_res.items
+        if len(results) != 0:
             return {"username_status": "available", "message": "Username already exist!Try another."}
     
         hashed_password = auth_handler.encode_password(user_details.password)    
         data = {"username" : user_details.username, "password" : hashed_password, "email" : user_details.email}
-        add_document(data)
+        db.put(data)
         return data
     except Exception as emsg:
         current_file_name = os.path.basename(__file__)
@@ -51,15 +66,16 @@ def SignUp(user_details: AuthModel):
 @router.post('/auth/signin', tags=["Sign In"])
 def Signin(user_details: AuthModel):
     try:
-        user = isUserNameExist(user_details.username)
+        user = db.fetch({"username": user_details.username}).items
+        if len(user) == 0:
         # print(user)
-        if user is None:
             return HTTPException(status_code=401, detail='Invalid username')
-        if (not auth_handler.verify_password(user_details.password, user['password'])):
+
+        if (not auth_handler.verify_password(user_details.password, user[0]['password'])):
             return HTTPException(status_code=401, detail='Invalid password')
 
-        access_token = auth_handler.encode_token(user['username'])
-        refresh_token = auth_handler.encode_refresh_token(user['username'])
+        access_token = auth_handler.encode_token(user[0]['username'])
+        refresh_token = auth_handler.encode_refresh_token(user[0]['username'])
         return {'access_token': access_token, 'refresh_token': refresh_token}
     except Exception as emsg:
         current_file_name = os.path.basename(__file__)
@@ -95,10 +111,10 @@ def Delete_Account(credentials: HTTPAuthorizationCredentials = Security(security
         token = credentials.credentials
         username = auth_handler.decode_token(token) # return username
         if username:
-            # print(auth_handler.decode_token(token)) 
-            userdata = isUserNameExist(username)
-            if userdata is not None:
-                delete_document(userdata.get("$id"))
+            # print(auth_handler.decode_token(token))
+            user = db.fetch({"username":username}).items
+            if len(user) != 0:
+                db.delete(user[0].get("key"))
                 return "Account deleted successfully."
             else:
                 return "No such user exist!"
@@ -127,8 +143,8 @@ def Delete_Account(credentials: HTTPAuthorizationCredentials = Security(security
 @router.post("/analysis/youtubeComments", tags=["Sentiment Analysis On YouTube Comments"], response_class=HTMLResponse)
 async def Youtube_Comments(request: Request, youtube_link:str=Form(...), maxComments:int=Form(...), maxCommentReplies:int=Form(...), nextPage_retrive_limit:int=Form(...)):
     try:
-        print(youtube_link)
-        print(maxCommentReplies)
+        # print(youtube_link)
+        # print(maxCommentReplies)
         if not youtube_link.startswith("https://www.youtube.com/watch?v=") or "&list=" in youtube_link:
             return {"message": "Invalid URL. Enter a proper youtube link."}
         else:

@@ -3,7 +3,6 @@ import jwt # used for encoding and decoding jwt tokens
 from fastapi import HTTPException 
 from passlib.context import CryptContext # used for hashing the password 
 from datetime import datetime, timedelta
-from decouple import config
 
 
 class Auth():

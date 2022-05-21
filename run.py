@@ -95,7 +95,6 @@ app.include_router(api.router)
 
 # origins = [
 #     "http://127.0.0.1:8000",
-#     "https://8000-appwrite-integrationfor-nf192dig6sr.ws-us44.gitpod.io/",
 # ]
 
 origins = ["*"] # not recommended for production
@@ -111,5 +110,5 @@ app.add_middleware(
 
 
 #used for development environment
-if __name__ == "__main__":
-    uvicorn.run("run:app", host="0.0.0.0", port=8000, reload=True)
+# if __name__ == "__main__":
+#     uvicorn.run("run:app", host="0.0.0.0", port=8000, reload=True)
